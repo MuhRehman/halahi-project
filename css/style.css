@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts//Gilroy-Heavy.ttf);
+    /* font-weight: bold; */
+  }
+  
 .main {
     width: 10%;
     margin: 150px auto;
@@ -25,7 +30,7 @@ ul li a {
     color:white !important;
 }
 body {
-    background-color: red;
+    background-color: rgb(126, 118, 118);
 }
 .input-group {
    background-color: #000000;
@@ -45,3 +50,76 @@ body {
     /* border-right: 12px  solid rgb(170, 170, 170)!important; */
     /* border-radius: 112px; */
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #A5A5A5!important;
+    opacity: 1; /* Firefox */
+  }
+  .category-btn {
+    color: #A5A5A5!important;
+    border-radius: 15px;
+  }
+  .brand-btn{
+      border-radius: 115px;
+      
+  }
+
+  .category-header {
+    background-image: url("../img/bannner.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  .bottom-area {
+      display: flex;
+  }
+
+  .enrol-btn {
+    background-color:  rgb(223, 29, 115);
+    border-radius: 115px;
+    color: whitesmoke;
+  }
+  .inner-content-right img {
+      height: 433px;
+  }
+
+
+  h1 {
+      font-family: myFirstFont;
+  }
+  .card .card-img-top {
+      width: 133px;
+      align-self: center;
+  }
+  .rounded {
+      background-color:#DF1D73;
+      height: 5px;
+      width: 32px;
+  }
+  .bar-content {
+      display: flex;
+  }
+  .footer-content .btn {
+      background-color: #DF1D73;
+      color: white;
+      border-radius: 15px;
+      padding-right: 22px;
+      padding-left: 22px;
+      margin-top: 12px;
+  }
+  .footer-content h1 {
+      color: white;
+  }
+  .footer-content {
+       padding-left: 50px;
+       padding-right: 50px;
+       align-self: center;
+  }
+  .brand-av {
+    background-image: url("../img/abanner.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
